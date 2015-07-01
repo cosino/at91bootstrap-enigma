@@ -76,6 +76,10 @@
 #include "sama5d3_xplained.h"
 #endif
 
+#ifdef CONFIG_ENIGMA
+#include "enigma.h"
+#endif
+
 #ifdef CONFIG_SAMA5D3X_CMP
 #include "sama5d3x_cmp.h"
 #endif
